@@ -1,0 +1,61 @@
+[
+    {
+        "IF": "Gaming",
+        "THEN": {
+            "ram": 8,
+            "hd_size": 512,
+            "clock_speed": 2,
+            "graphic_card_size": 2,
+            "processor_brand": "any",
+            "graphic_card_brand" : ["amd", "nvidia"]
+        }
+    },
+    
+    {
+        "IF": "Advanced Projects",
+        "THEN": {
+            "ram": 8,
+            "hd_size": 256,
+            "clock_speed": 2,
+            "graphic_card_size": 0,
+            "processor_brand": "any",
+            "graphic_card_brand" : "any"
+        }
+    },
+
+    {
+        "IF": "Office/School work",
+        "THEN": {
+            "ram": 2,
+            "hd_size": 128,
+            "clock_speed": 0,
+            "graphic_card_size": 0,
+            "processor_brand": "intel",
+            "graphic_card_brand" : "any"
+        }
+    },
+
+    {
+        "IF": "Light Usage/General Documentation",
+        "THEN": {
+            "ram": 4,
+            "hd_size": 128,
+            "clock_speed": 0,
+            "graphic_card_size": 0,
+            "processor_brand": "any",
+            "graphic_card_brand" : "any"
+        }
+    },
+
+    {
+        "IF": "Other/Unspecified",
+        "THEN": {
+            "ram": 2,
+            "hd_size": 128,
+            "clock_speed": 0,
+            "graphic_card_size": 0,
+            "processor_brand": "any",
+            "graphic_card_brand" : "any"
+        }
+    }
+]
